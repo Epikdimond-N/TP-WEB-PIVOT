@@ -1,0 +1,26 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #2D2D2D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+
+.center{
+    display: flex;
+    background-color: #F2F2F2;
+    border:solid 1px;
+    border-radius: 10px;
+    padding:20px 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}

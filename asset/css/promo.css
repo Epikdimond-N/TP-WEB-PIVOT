@@ -1,0 +1,16 @@
+.sexe{
+    width: 60px;
+    height: 60px;
+}
+
+
+
+.const{
+    border-radius: 5px;
+    padding: 5px;
+    width: 20%;
+    border:solid 1px;
+    border-color: black;
+    display: flex;
+    justify-content: space-between;
+}
