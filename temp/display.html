@@ -1,0 +1,25 @@
+{{define "display"}}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <link rel="stylesheet" href="/static/css/display.css">
+</head>
+<body>
+    <section class="section">
+        <div>
+        <p><strong>Vos données personnelles</strong></p>
+        </div>
+        <div class="infos">
+            <p>Nom</p>{{.Nom}}
+            <p>Prenom</p>{{.Prenom}}
+            <p>Anniversaire</p>{{.Anniv}}
+            <p>Sexe</p>{{.Sexe}}
+        </div>
+    </section>
+    
+</body>
+</html>
+{{end}}

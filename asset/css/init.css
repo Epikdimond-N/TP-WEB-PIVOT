@@ -1,0 +1,16 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2D2D2D;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    padding: 20px 40px 20px 40px;
+    border-radius: 10px;
+}
